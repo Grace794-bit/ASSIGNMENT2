@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .Container1 {
+        border: 1px solid black;
+        margin: 1%;
+    }
+    .Container2 {
+        border: 1px solid black;
+        margin: 1%;
+    }
+    .Container3 {
+        border: 1px solid black;
+        margin: 1%;
+    }
+</style>
+<body>
+   <form action="#">
+    <div class="Container1">
+    <div>
+        <br/>
+        <label for="Firstname">First name</label>
+        <input type="text" id="Firstname" name="Firstname" required>
+        <br/><br/>
+    </div>
+    <div>
+    <label for="Lastname"> Last name</label>
+    <input type="text" id="Lastname" name="Lastname" required>
+    <br/><br/>
+    </div>
+    <div>
+    <label for="Street"> Street</label>
+    <input type="text" id="Street" name="Street" required>
+    <br/><br/>
+    </div>
+    <div>
+<label for="City"> City</label>
+<input type="text" id="City" name="City" required>
+<br/><br/>
+    </div>
+    </div>
+    <div class="Container2">
+    <div>
+        <br/>
+        <label for="Biography">Biography</label>
+    <textarea id="Biography" name="Biography" cols="14" rows="3">
+
+    </textarea>
+    <br/><br/>
+    </div>
+        <div>
+        <label for="myfile"> file</label>
+        <input type="file" id="myfile" name="myfile">
+        <br/><br/>
+    </div>
+    <div>
+        <label for="Age Group">Age Group</label>
+        <input type="number" id="Age Group" name="Age Group" placeholde
+        r="0 to 9 Years" min="0" max="9">
+        <br/><br/>
+    </div>
+    </div>
+        <div class="Container3">
+            <div>
+                <br/>
+        <label for="Hobbies">Hobbies</label>
+        <select name="Hobbies" id="Hobbies">
+            <option value="Playing soccer">Playing soccer</option>
+            <option value="Dancing">Dancing</option>
+            <option value="Gardening">Gardening</option>
+            <option value="Watching movies">Watching movies</option>
+        </select>
+        <br/><br/>
+    </div>
+<div>
+    <label for="Favourite car">Favourite car?</label>
+    <select name="Favourite car" id="Favourite car">
+    <option value="volvo">Volvo</option>
+</select>
+<br/><br/>
+</div>
+<div>
+    <label for="Favourite public transport?">Favourite public transport?
+
+    </label>
+    <select name="Favourite public transport?" id="Favourite public transport?
+    ">
+    <optgroup label="Ground">
+        <option value="Train">Train</option>
+        <option value="Bus">Bus</option>
+    </optgroup>
+    <optgroup label="Water"></optgroup>
+</select>
+<br/><br/>
+</div>
+        </div>
+   </form> 
+</body>
+</html>
